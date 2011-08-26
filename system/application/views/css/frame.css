@@ -1,0 +1,193 @@
+.W_layer a {
+    color: #0078B6;
+    text-decoration: none;
+}
+.W_layer {
+    -moz-border-radius: 4px 4px 4px 4px;
+    position: absolute;
+    z-index: 9999;
+}
+.W_layer .bg {
+    -moz-border-radius: 4px 4px 4px 4px;
+    background: url("../image/layer_bg.png?id=1311764019974") repeat scroll 0 0 transparent;
+    padding: 4px;
+    width:365px;
+    height:180px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.W_layer .tcontent {
+    -moz-border-radius: 3px 3px 3px 3px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C6C6C6;
+    position: relative;
+}
+.clearfix {
+    display: block;
+}
+.name_card {
+    color: #5D5D5D;
+}
+.name_card .name {
+    padding: 15px 15px 10px;
+}
+.name_card .info {
+    line-height: 18px;
+    margin: 0 15px 8px;
+    width: 330px;
+}
+.name_card .links {
+    background: none repeat scroll 0 0 #F5F5F5;
+    margin: 0;
+    overflow: hidden;
+    padding: 6px 15px 5px;
+}
+.name_card .links p {
+    display: inline-block;
+    float: left;
+    margin-top: 4px;
+}
+.name_card .links .icons {
+    vertical-align: middle;
+}
+.name_card .ico_msg {
+    background-position: 0 -63px;
+}
+.name_card .icons {
+    background: url("../images/layer/ico_card.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 16px;
+    margin-right: 4px;
+    width: 16px;
+}
+.name_card .links .W_btn_b, .name_card .links .W_addbtn_even {
+    display: inline;
+    float: right;
+}
+.W_addbtn_even, .W_joinbtn_even {
+    -moz-border-radius: 2px 2px 2px 2px;
+    background: none repeat scroll 0 0 #F8F8F8;
+    border: 1px solid #DDDDDD;
+    display: inline-block;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 10px 0 5px;
+    position: relative;
+}
+
+.name_card .name dd {
+    line-height: 20px;
+    margin: -4px 0 0 10px;
+}
+
+.name_card .name dd p {
+    width: 260px;
+    word-wrap: break-word;
+}
+.name_card .name .address img {
+    margin: 0 0 0 3px;
+}
+.female {
+    display: inline-block;
+    height: 13px;
+    margin: 0 2px;
+    width: 11px;
+}
+fieldset, img {
+    border: 0 none;
+}
+.name_card .name dd div {
+}
+.name_card .userdata {
+    width: 270px;
+}
+.name_card .userdata li {
+    float: left;
+}
+.name_card .userdata li.W_vline {
+    margin: 0 8px;
+}
+.name_card .info dt {
+    color: #666666;
+}
+.name_card .info dd {
+    margin-bottom: 2px;
+    width: 290px;
+    word-wrap: break-word;
+}
+.name_card .name dt, .name_card .name dd, .name_card .info dt, .name_card .info dd {
+    display: inline;
+    float: left;
+}
+.name_card .honour {
+    float: left;
+    height: 24px;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+fieldset, img {
+    border: 0 none;
+}
+.name_card .links p {
+    display: inline-block;
+    float: left;
+    margin-top: 4px;
+}
+.name_card .links .W_btn_b, .name_card .links .W_addbtn_even {
+    display: inline;
+    float: right;
+}
+.W_addbtn_even, .W_joinbtn_even {
+    -moz-border-radius: 2px 2px 2px 2px;
+    background: none repeat scroll 0 0 #F8F8F8;
+    border: 1px solid #DDDDDD;
+    display: inline-block;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 10px 0 5px;
+    position: relative;
+}
+.addbtn_d {
+    background-position: 0 -770px;
+    width: 11px;
+}
+.icon_add {
+    background: url("../../../images/common/ico.png?id=1312338460578") no-repeat scroll 0 -730px transparent;
+    float: left;
+    height: 10px;
+    margin: 7px 4px 0 0;
+    width: 8px;
+}
+fieldset, img {
+    border: 0 none;
+}
+.W_linkb a, a.W_linkb {
+    color: #9ABBC8;
+}
+address, caption, cite, code, dfn, em, i, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+.W_layer .arrow_b {
+    background-position: 0 -11px;
+    bottom: -6px;
+    top: auto;
+}
+.W_layer .arrow_t, .W_layer .arrow_b {
+    background-position: 0 -1px;
+    height: 11px;
+    left: 30px;
+    top: -6px;
+    width: 16px;
+}
+.W_layer .arrow, .W_layer .arrow_hui {
+    background: url("../images/common/layer_arrow.png?id=1311764019974") no-repeat scroll 0 0 transparent;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+}

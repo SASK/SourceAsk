@@ -1,0 +1,23 @@
+<?php
+class Question_detail extends CI_Controller {
+	private $questionList;
+	private $tagList;
+	function __construct()
+	{
+		parent::__construct();
+		$this->load->model('question_model');
+		$this->load->model('tag_model');
+		$this->load->library('template');
+		$this->questionList = new question_model();
+		$this->tagList = new tag_model();
+		$this->template->assign('title', '问源网');
+		$this->template->assign('host', $this->config->item('host'));
+	}
+
+	public function index()
+	{
+		$this->template->view('question_detail');
+		
+	}
+}
+?>
